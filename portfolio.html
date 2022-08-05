@@ -148,14 +148,19 @@
                     <ul class="box-list">
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster1(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster1(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile1(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile1(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster1(1x)_370.jpg" 
-                                    width="370" alt="Технокряк" title="Технокряк">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile1(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile1(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster1(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster1(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster1(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster1(2x)_740.jpg 2x">
+                                        <img src="./images/portfolio/postermobile1(1x)_450.jpg"
+                                            width="450" alt="Технокряк" title="Технокряк">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -167,14 +172,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster2(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster2(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile2(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile2(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster2(1x)_370.jpg" 
-                                    width="370" alt="Постер New Orlean vs Golden Star" title="Постер New Orlean vs Golden Star">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile2(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile2(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster2(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster2(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster2(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster2(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile2(1x)_450.jpg" 
+                                        width="450" alt="Постер New Orlean vs Golden Star" title="Постер New Orlean vs Golden Star">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -186,14 +196,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster3(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster3(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile3(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile3(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster3(1x)_370.jpg" 
-                                    width="370" alt="Ресторан Seafood" title="Ресторан Seafood">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile3(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile3(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster3(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster3(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster3(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster3(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile3(1x)_450.jpg" 
+                                        width="450" alt="Ресторан Seafood" title="Ресторан Seafood">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -205,14 +220,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster4(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster4(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile4(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile4(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster4(1x)_370.jpg" 
-                                    width="370" alt="Проект Prime" title="Проект Prime">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile4(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile4(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster4(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster4(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster4(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster4(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile4(1x)_450.jpg" 
+                                        width="450" alt="Проект Prime" title="Проект Prime">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -224,14 +244,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster5(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster5(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile5(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile5(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster5(1x)_370.jpg" 
-                                    width="370" alt="Проект Boxes" title="Проект Boxes">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile5(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile5(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster5(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster5(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster5(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster5(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile5(1x)_450.jpg" 
+                                        width="450" alt="Проект Boxes" title="Проект Boxes">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -243,14 +268,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster6(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster6(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile6(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile6(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster6(1x)_370.jpg" 
-                                    width="370" alt="Inspiration has no Borders" title="Inspiration has no Borders">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile6(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile6(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster6(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster6(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster6(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster6(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile6(1x)_450.jpg" 
+                                        width="450" alt="Inspiration has no Borders" title="Inspiration has no Borders">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -262,14 +292,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster7(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster7(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile7(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile7(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster7(1x)_370.jpg" 
-                                    width="370" alt="Видавництво Limited Edition" title="Видавництво Limited Edition">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile7(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile7(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster7(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster7(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster7(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster7(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile7(1x)_450.jpg" 
+                                        width="450" alt="Видавництво Limited Edition" title="Видавництво Limited Edition">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -281,14 +316,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster8(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster8(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile8(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile8(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster8(1x)_370.jpg" 
-                                    width="370" alt="Проект LAB" title="Проект LAB">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile8(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile8(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster8(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster8(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster8(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster8(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile8(1x)_450.jpg" 
+                                        width="450" alt="Проект LAB" title="Проект LAB">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>
@@ -300,14 +340,19 @@
                         </li>
                         <li class="box-list__item poster-item">
                             <div class="poster-item__overlay">
-                                <img class="box-image" 
-                                    srcset="./images/portfolio/poster9(1x)_370.jpg 370w, 
-                                            ./images/portfolio/poster9(2x)_740.jpg 740w, 
-                                            ./images/portfolio/postermobile9(1x)_450.jpg 450w, 
-                                            ./images/portfolio/postermobile9(2x)_900.jpg 900w" 
-                                    sizes="(min-width: 1200px) 370px, (min-width: 768px) 354px, 100vw" 
-                                    src="./images/portfolio/poster9(1x)_370.jpg" 
-                                    width="370" alt="Growing Business" title="Growing Business">
+                                <picture class="box-image">
+                                    <source media="(max-width: 767px)" 
+                                        srcset="./images/portfolio/postermobile9(1x)_450.jpg 1x, 
+                                                ./images/portfolio/postermobile9(2x)_900.jpg 2x">
+                                    <source media="(min-width: 768px) and (max-width: 1199px)" 
+                                        srcset="./images/portfolio/poster9(1x)_354.jpg 1x, 
+                                                ./images/portfolio/poster9(2x)_708.jpg 2x">
+                                    <source media="(min-width: 1200px)" 
+                                        srcset="./images/portfolio/poster9(1x)_370.jpg 1x, 
+                                                ./images/portfolio/poster9(2x)_740.jpg 2x">
+                                    <img src="./images/portfolio/postermobile9(1x)_450.jpg" 
+                                        width="450" alt="Growing Business" title="Growing Business">
+                                </picture>
                                 <p class="poster-item__title">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу
                                     та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію або
                                     приватну особу.</p>

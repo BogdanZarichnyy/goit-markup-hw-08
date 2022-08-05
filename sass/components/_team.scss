@@ -17,18 +17,6 @@
     }
 }
 
-.team-item__photo {
-    height: 460px;
-
-    @media screen and (min-width: $tablet) {
-        height: 374px;
-    }
-
-    @media screen and (min-width: $desktop) {
-        height: auto;
-    }
-}
-
 .team-item__name {
     padding-top: 30px;
     padding-bottom: 10px;

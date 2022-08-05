@@ -101,9 +101,7 @@ address {
 .box-image {
   display: block;
   width: 100%;
-  height: 294px;
-  object-position: 50% 50%;
-  object-fit: cover;
+  height: auto;
 }
 
 /*Бекдроп*/
@@ -171,36 +169,41 @@ address {
 }
 @media screen and (min-width: 480px) {
   .section-order {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/phototablet(1x)_768.jpg");
+    background-size: auto;
   }
 }
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 480px) and (min-resolution: 192dpi), (min-width: 480px) and (min-resolution: 2dppx) {
   .section-order {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/phototablet(2x)_1536.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/photomobile(2x)_960.jpg");
+    background-size: contain;
   }
 }
 @media screen and (min-width: 768px) {
   .section-order {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/photodesktop(1x)_1600.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/phototablet(1x)_768.jpg");
+    background-size: contain;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
   .section-order {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/photodesktop(2x)_3200.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/phototablet(2x)_1536.jpg");
+    background-size: contain;
   }
 }
 @media screen and (min-width: 1200px) {
   .section-order {
     padding: 200px 0;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/photodesktop(1x)_1600.jpg");
     background-size: auto;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1600px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (max-width: 1600px) and (min-resolution: 192dpi), (min-width: 1200px) and (max-width: 1600px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .section-order {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/order/photodesktop(2x)_3200.jpg");
     background-size: cover;
   }
 }
-@media screen and (min-width: 1601px) and (min-device-pixel-ratio: 2), (min-width: 1601px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1601pxp) and (min-resolution: 192dpi), (min-width: 1601px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1601px) and (min-device-pixel-ratio: 2), (min-width: 1601px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1601px) and (min-resolution: 192dpi), (min-width: 1601x) and (min-resolution: 2dppx) {
   .section-order {
     background-size: contain;
   }
@@ -1241,20 +1244,6 @@ address {
   }
 }
 
-.team-item__photo {
-  height: 460px;
-}
-@media screen and (min-width: 768px) {
-  .team-item__photo {
-    height: 374px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-item__photo {
-    height: auto;
-  }
-}
-
 .team-item__name {
   padding-top: 30px;
   padding-bottom: 10px;
@@ -1364,7 +1353,7 @@ address {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #FFFFFF;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
