@@ -34,16 +34,6 @@ ul {
   margin: 0;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-address {
-  font-style: normal;
-}
-
 /*Фон сторінки та головний шрифт*/
 .body-general {
   background-color: #FFFFFF;
@@ -1450,6 +1440,7 @@ address {
 }
 
 .footer__address {
+  font-style: normal;
   margin-top: 20px;
 }
 
@@ -1665,6 +1656,13 @@ address {
 /*Заборона прокрутки контенту поза бекдропом при відкритому модальному вікні*/
 .is-overflow {
   overflow: hidden;
+}
+
+/*Заборона прокрутки контенту при відкритому мобільному меню*/
+@media screen and (max-width: 767px) {
+  .is-overflow-mobile {
+    overflow: hidden;
+  }
 }
 
 /*Анімації ховеру та фокусу для псевдоелемента навігації*/

@@ -79,6 +79,13 @@
     overflow: hidden;
 }
 
+/*Заборона прокрутки контенту при відкритому мобільному меню*/
+.is-overflow-mobile {
+    @media screen and (max-width: calc($tablet - 1px)) {
+        overflow: hidden;
+    }
+}
+
 /*Анімації ховеру та фокусу для псевдоелемента навігації*/
 @keyframes animation-underline {
     0% {

@@ -1,7 +1,7 @@
 (() => {
   const menuBtnRef = document.querySelector("[data-menu-button]");
   const mobileMenuRef = document.querySelector("[data-menu]");
-  const bodyMenuRef = document.querySelector("[data-body]"); // це утилітка яка забороняє прокрутку контенту поза бекдропом при відкритому модальному вікні
+  const bodyMenuRef = document.querySelector("[data-body]"); // це утилітка яка забороняє прокрутку контенту при відкритому мобільному меню
 
   menuBtnRef.addEventListener("click", () => {
     const expanded =
@@ -9,7 +9,7 @@
 
     menuBtnRef.classList.toggle("is-open");
     menuBtnRef.setAttribute("aria-expanded", !expanded);
-    bodyMenuRef.classList.toggle("is-overflow"); // забороняємо прокрутку контенту поза менюшки
+    bodyMenuRef.classList.toggle("is-overflow-mobile"); // забороняємо прокрутку контенту при відкритому мобільному меню
 
     mobileMenuRef.classList.toggle("is-open");
   });
