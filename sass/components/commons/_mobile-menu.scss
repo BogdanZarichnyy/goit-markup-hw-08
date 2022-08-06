@@ -293,7 +293,7 @@
     }
 
     &--number {
-        color: getColor('text-color__secondary');
+        color: getColor('general-color');
         
         @media screen and (max-width: 369px) {
             font-size: getFonts('logo-tablet__font-size');
