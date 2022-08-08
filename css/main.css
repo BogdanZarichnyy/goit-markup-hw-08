@@ -497,6 +497,7 @@ ul {
     align-items: center;
     font-size: 12px;
     line-height: 1.17;
+    color: #757575;
   }
 }
 @media screen and (min-width: 1200px) {

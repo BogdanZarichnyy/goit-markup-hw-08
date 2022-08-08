@@ -310,6 +310,7 @@
             align-items: center;
             font-size: getFonts('modal-label__font-size');
             line-height: getFonts('modal-label__line-height');
+            color: getColor('text-color__secondary');
         }
     
         @media screen and (min-width: $desktop) {
