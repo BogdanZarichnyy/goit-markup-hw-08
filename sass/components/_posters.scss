@@ -1,6 +1,8 @@
 /*Постери*/
 .poster-item {
     // max-width: 370px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: getColor('content-color');
     border-bottom:
@@ -83,6 +85,7 @@
 }
 
 .poster-item__label {
+    flex-grow: 1;
     border-left: 1px solid getColor('poster-item__border-color');
     border-right: 1px solid getColor('poster-item__border-color');
     padding: 20px 23px 19px;

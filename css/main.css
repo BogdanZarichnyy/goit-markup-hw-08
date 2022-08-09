@@ -1305,6 +1305,8 @@ ul {
 
 /*Постери*/
 .poster-item {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #FFFFFF;
   border-bottom: 1px solid #EEEEEE;
@@ -1386,6 +1388,7 @@ ul {
 }
 
 .poster-item__label {
+  flex-grow: 1;
   border-left: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   padding: 20px 23px 19px;
